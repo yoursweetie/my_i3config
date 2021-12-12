@@ -42,9 +42,9 @@ readable() {
     if [ "$mib_dec" -lt 10 ]; then
       mib_dec="0${mib_dec}"
     fi
-    echo "${mib_int}.${mib_dec} M"
+    echo "${mib_int}.${mib_dec}M"
   else
-    echo "${kib} K"
+    echo "${kib}K"
   fi
 }
 
